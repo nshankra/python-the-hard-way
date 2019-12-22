@@ -1,0 +1,11 @@
+i = 456
+a = 200
+
+print("i + a?", i + a)
+
+print("Is it true ?",i > a)
+print("is it greater or equal?",i >= a)
+print("Is it true that i = a?", i = a)
+
+
+

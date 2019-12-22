@@ -1,0 +1,1552 @@
+Script started on 2019-12-19 11:44:34+0530
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ mkdir pythonls[Kpython3 hello.py [3Pex1.pyhello.py [11Pcode .vim hello.pypython3 hello.py [5Pvim hello.py[5Ppython3ls[Kvim sudo apt-get upgrade[1Pdateinstall gccpython3[Ksudo apt-get install python3python[K[3Pgcc[1Pcdlscd /[2P;scd ../[3Ppwd[1Plspython3 ex2.py1.py[1P[C[C[C[C[C[C[C[C[1@n[C[C[C[C[C[C[C[Cls[Kcd python/ls[Kpwd[1Plsmkdir pythonls[KLSlsislsislsLSlsmkdir pythonls[Kpwd[1Plscd python/ls[Kpython3 ex1.py[1P[C[C[C[C[C[C[C[C[1@n[C[C[C[C[C[C[C[C2.pyls[Kpwdcd ../[4P;scd /[2Plscdgccpythonsudo apt-get install python3python3[Ksudo apt-get install gcc[5Pupdategradevim [K[2Plspython3vim hello.pypython3 hello.py [5Pvim hello.py[6Pcode .python3 hello.py [3Pex1.pyhello.py ls[Kmkdir python[Kmkdir python[Kmkdir pythonls[Kpython3 hello.py [3Pex1.py4.py[C[C[C N shankra nand
+  File "ex14.py", line 3
+    first, second, third = argv
+    ^
+IndentationError: unexpected indent
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex14.py N shankra nand
+The script is called: ex14.py
+Your first name is: N
+your middle name is: shankra
+your last name is: nand
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex14.py N shankra nand[K[K[K[K[K[K[K[K[K[K[K[K
+Traceback (most recent call last):
+  File "ex14.py", line 3, in <module>
+    script, first, second, third = argv
+ValueError: not enough values to unpack (expected 4, got 2)
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex14.py N [C[1P[1@5[C[C[C[C[C
+  File "ex15.py", line 8
+    print(Of"Do you like me {user_name}?")
+                                        ^
+SyntaxError: invalid syntax
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex15.py N 
+Traceback (most recent call last):
+  File "ex15.py", line 6, in <module>
+    print(f"Hi {user_name}, I'm the {script} script.")
+NameError: name 'script' is not defined
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex15.py N 
+Hi N, I'm the ex15.py script.
+I'd like to ask you a few questions.
+Do you like me N?
+> no
+Where do you live N?
+> bihar
+What kind of computer do you have?
+> super compue tere
+
+Alright, so you said no about liking me.
+you live in bihar. Not sure where that is.
+And you have a super computere computer. Nice.
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex15.py N 
+Hi N, I'm the ex15.py script.
+I'd like to ask you a few questions.
+Do you like me N?
+-chutiya hai tu
+Where do you live N?
+-nowhere
+What kind of computer do you have?
+-you don; 't know
+
+Alright, so you said chutiya hai tu about liking me.
+you live in nowhere. Not sure where that is.
+And you have a you don't know computer. Nice.
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex15.py N 
+Traceback (most recent call last):
+  File "ex15.py", line 3, in <module>
+    script, user_name = s
+NameError: name 's' is not defined
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex15.py N 
+Traceback (most recent call last):
+  File "ex15.py", line 3, in <module>
+    script, user_name = n
+NameError: name 'n' is not defined
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex15.py N 
+Traceback (most recent call last):
+  File "ex15.py", line 1, in <module>
+    from sys import n
+ImportError: cannot import name 'n'
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex15.py N 
+Hi N, I'm the ex15.py script.
+I'd like to ask you a few questions.
+Do you like me N?
+-no
+Where do you live N?
+-,
+What kind of computer do you have?
+-l
+
+Alright, so you said no about liking me.
+you live in ,. Not sure where that is.
+And you have a l computer. Nice.
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex15.py N 
+  File "ex15.py", line 9
+    likes = input(prompt. f " Do you like me {user_name}?")
+                                                         ^
+SyntaxError: invalid syntax
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex15.py N 
+Hi N, I'm the ex15.py script.
+I'd like to ask you a few questions.
+ Do you like me N?no
+Where do you live N?
+-nowhere
+What kind of computer do you have?
+-l
+
+Alright, so you said no about liking me.
+you live in nowhere. Not sure where that is.
+And you have a l computer. Nice.
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex15.py N 
+Hi N, I'm the ex15.py script.
+I'd like to ask you a few questions.
+do like me N?
+-no
+Where do you live N?
+-1
+What kind of computer do you have?
+-l
+
+Alright, so you said no about liking me.
+you live in 1. Not sure where that is.
+And you have a l computer. Nice.
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex15.py N 
+Hi N, I'm the ex15.py script.
+I'd like to ask you a few questions.
+do like me N?
+-no
+Where do you live N?
+-h
+What kind of computer do you have?
+-j
+
+Alright N, so you said no about liking me.
+you live in h. Not sure where that is.
+And you have a j computer. Nice.
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ pydoc open
+
+Command 'pydoc' not found, but can be installed with:
+
+sudo apt install python
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ pydoc openthon3 ex15.py N [K[K[K[C[1P.py6.py[C[C[C ex16_sample.txt
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ 
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex16.py ex16_sample.txt
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex16.py ex16_sample.txt
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex16.py ex16_sample.txtdoc open[Kthon3 ex15.py N 
+Hi N, I'm the ex15.py script.
+I'd like to ask you a few questions.
+do like me N?
+-^[[A
+Where do you live N?
+-^[[A
+What kind of computer do you have?
+-^[[A
+
+Alright N, so you said [A about liking me.
+you live in [A. Not sure where that is.
+And you have a [A computer. Nice.
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex15.py N 6.py ex16_sample.txt
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex16.py ex16_sample.txt[13P5.py N 
+Hi N, I'm the ex15.py script.
+I'd like to ask you a few questions.
+do like me N?
+-l
+Where do you live N?
+-l
+What kind of computer do you have?
+-lk
+
+Alright N, so you said l about liking me.
+you live in l. Not sure where that is.
+And you have a lk computer. Nice.
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex15.py N 6.py ex16_sample.txt
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ 2
+2: command not found
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ 2python3 ex16.py ex16_sample.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ b   [K[K[K[Kpython3 ex16.py  a 
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ ld
+ld: no input files
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ vim a/[K.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;13r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[13;1H"a.txt" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                 [3;1H~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [m[13;65H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[13;55Hi[1;1H[13;55H [1;1H[13;1H[1m-- INSERT --[m[13;14H[K[13;65H0,1[11CAll[1;1H[?25h[?25lk[13;65H1,2[1;2H[?25h[?25lj[13;67H3[1;3H[?25h[?25ld[13;67H4[1;4H[?25h[?25lfh[13;67H6[1;6H[?25h[?25lk[13;67H7[1;7H[?25h[?25lj[13;67H8[1;8H[?25h[?25lh[13;67H9[1;9H[?25h[?25ld[13;67H10[1;10H[?25h[?25lf[13;68H1[1;11H[?25h[?25lk[13;68H2[1;12H[?25h[?25lh[13;68H3[1;13H[?25h[?25lk[13;68H4[1;14H[?25h[?25ld[13;68H5[1;15H[?25h[?25lf[13;68H6[1;16H[?25h[?25lh[13;68H7[1;17H[?25h[?25lg[13;68H8[1;18H[?25h[?25lk[13;68H9[1;19H[?25h[?25lj[13;67H20[1;20H[?25h[13;1H[K[1;19H[?25l[13;55H^[[1;19H[13;55H  [1;20H[13;65H1,19[10CAll[1;19H[?25h[?25l[13;55H:[1;19H[13;55H[K[13;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?2004l"a.txt" [New] 1L, 20C written
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python a.[K[Kex1
+ex1.py   ex10.py  ex11.py  ex12.py  ex13.py  ex14.py  ex15.py  ex16.py  
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python ex16.py a.txt 
+
+Command 'python' not found, but can be installed with:
+
+sudo apt install python3       
+sudo apt install python        
+sudo apt install python-minimal
+
+You also have python3 installed, you can run 'python3' instead.
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python ex16.py a.txt [1@3
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex16.py a.txt [1@.[1@/
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex16.py ./a.txt [2P[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pvim a.txt[K[K[K[K[K 3x[K[K[Kex[K[K[K[K[K[Kls
+a.txt    ex11.py  ex14.py  ex2.py  ex5.py  ex8.py  [0m[34;42mpython[0m
+ex1.py   ex12.py  ex15.py  ex3.py  ex6.py  ex9.py  typescript
+ex10.py  ex13.py  ex16.py  ex4.py  ex7.py  hw1
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex16.py a.txt 
+ex16.py a.txt
+here's your file a.txt:
+kjdfhkjhdfkhkdfhgkj
+
+Type the filename again:
+> a.txt
+kjdfhkjhdfkhkdfhgkj
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex16.py a.txt 
+here's your file a.txt:
+kjdfhkjhdfkhkdfhgkj
+
+Type the filename again:
+> ^CTraceback (most recent call last):
+  File "ex16.py", line 11, in <module>
+    file_again = input("> ")
+KeyboardInterrupt
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex16.py a.txt 
+here's your file a.txt:
+kjdfhkjhdfkhkdfhgkj
+
+Type the filename again:
+> ^CTraceback (most recent call last):
+  File "ex16.py", line 11, in <module>
+    file_again = input("> ")
+KeyboardInterrupt
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ ls
+a.txt    ex11.py  ex14.py  ex2.py  ex5.py  ex8.py  [0m[34;42mpython[0m
+ex1.py   ex12.py  ex15.py  ex3.py  ex6.py  ex9.py  typescript
+ex10.py  ex13.py  ex16.py  ex4.py  ex7.py  hw1
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ lspython3 ex16.py a.txt [K[K[K[K[Kex8[K[K[K[KEX8[K[K[Kex8.py 
+here's your file ex8.py:
+print("Mary had a little lamb.")
+print("Its fleece was white as {}.".format('snow'))
+print("And everywhere that Mary went.")
+print("." * 10)
+
+
+end1 = "c"
+end2 = "h"
+end3 = "e"
+end4 = "e"
+end5 = "s"
+end6 = "e"
+end7 = "B"
+end8 = "u"
+end9 = "r"
+end10 = "g"
+end11 = "e"
+end12 = "r"
+
+# watch that comma at the end. try removing it to see what happens
+print(end1 + end2 + end3 + end4 + end5 + end6,end=" ")
+print(end7 +end8 + end9 +end10 + end11 +end12)
+
+Type the filename again:
+> a.txt
+kjdfhkjhdfkhkdfhgkj
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ pydoc
+
+Command 'pydoc' not found, but can be installed with:
+
+sudo apt install python
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ sudo apt-get install [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpydoc
+
+Command 'pydoc' not found, but can be installed with:
+
+sudo apt install python
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ pydoc
+
+Command 'pydoc' not found, but can be installed with:
+
+sudo apt install python
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ pydoc3
+pydoc - the Python documentation tool
+
+pydoc3 <name> ...
+    Show text documentation on something.  <name> may be the name of a
+    Python keyword, topic, function, module, or package, or a dotted
+    reference to a class or function within a module or module in a
+    package.  If <name> contains a '/', it is used as the path to a
+    Python source file to document. If name is 'keywords', 'topics',
+    or 'modules', a listing of these things is displayed.
+
+pydoc3 -k <keyword>
+    Search for a keyword in the synopsis lines of all available modules.
+
+pydoc3 -p <port>
+    Start an HTTP server on the given port on the local machine.  Port
+    number 0 can be used to get an arbitrary unused port.
+
+pydoc3 -b
+    Start an HTTP server on an arbitrary unused port and open a Web browser
+    to interactively browse documentation.  The -p option can be used with
+    the -b option to explicitly specify the server port.
+
+pydoc3 -w <name> ...
+    Write out the HTML documentation for a module to a file in the current
+    directory.  If <name> contains a '/', it is treated as a filename; if
+    it names a directory, documentation is written for all the contents.
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ pydoc3 p[Kopen
+[?1049h[22;0;0t[?1h=Help on built-in function open in module io:
+
+[1mopen[0m(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, close fd=True, opener=None)
+    Open file and return a stream.  Raise IOError upon failure.
+    
+    file is either a text or byte string giving the name (and the path
+    if the file isn't in the current working directory) of the file to
+    be opened or an integer file descriptor of the file to be
+    wrapped. (If a file descriptor is given, it is closed when the
+    returned I/O object is closed, unless closefd is set to False.)
+    
+:[K[K[?1l>[?1049l[23;0;0t
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ pydoc3 open[K[Kthon3 ex16.py ex8.py 
+here's your file ex8.py:
+print("Mary had a little lamb.")
+print("Its fleece was white as {}.".format('snow'))
+print("And everywhere that Mary went.")
+print("." * 10)
+
+
+end1 = "c"
+end2 = "h"
+end3 = "e"
+end4 = "e"
+end5 = "s"
+end6 = "e"
+end7 = "B"
+end8 = "u"
+end9 = "r"
+end10 = "g"
+end11 = "e"
+end12 = "r"
+
+# watch that comma at the end. try removing it to see what happens
+print(end1 + end2 + end3 + end4 + end5 + end6,end=" ")
+print(end7 +end8 + end9 +end10 + end11 +end12)
+
+Type the filename again:
+> ex16
+Traceback (most recent call last):
+  File "ex16.py", line 13, in <module>
+    txt_again = open(file_again)
+FileNotFoundError: [Errno 2] No such file or directory: 'ex16'
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex16.py ex8.py 
+here's your file ex8.py:
+print("Mary had a little lamb.")
+print("Its fleece was white as {}.".format('snow'))
+print("And everywhere that Mary went.")
+print("." * 10)
+
+
+end1 = "c"
+end2 = "h"
+end3 = "e"
+end4 = "e"
+end5 = "s"
+end6 = "e"
+end7 = "B"
+end8 = "u"
+end9 = "r"
+end10 = "g"
+end11 = "e"
+end12 = "r"
+
+# watch that comma at the end. try removing it to see what happens
+print(end1 + end2 + end3 + end4 + end5 + end6,end=" ")
+print(end7 +end8 + end9 +end10 + end11 +end12)
+
+Type the filename again:
+> ex16.py
+from sys import argv
+
+script, filename = argv
+
+txt = open(filename)
+
+print(f"here's your file {filename}:")
+print(txt.read())
+
+print("Type the filename again:")
+file_again = input("> ")
+
+txt_again = open(file_again)
+
+print(txt_again.read())
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex16.py ex8.py [12Pdoc3 open
+[?1049h[22;0;0t[?1h=Help on built-in function open in module io:
+
+[1mopen[0m(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, close fd=True, opener=None)
+    Open file and return a stream.  Raise IOError upon failure.
+    
+    file is either a text or byte string giving the name (and the path
+    if the file isn't in the current working directory) of the file to
+    be opened or an integer file descriptor of the file to be
+    wrapped. (If a file descriptor is given, it is closed when the
+    returned I/O object is closed, unless closefd is set to False.)
+    
+:[K[K [KESCESC[KOO[KBB[K    mode is an optional string that specifies the mode in which the file
+:[K[K [KESCESC[KOO[KBB[K    is opened. It defaults to 'r' which means open for reading in text
+:[K[K [KESCESC[KOO[KBB[K    mode.  Other common values are 'w' for writing (truncating the file if
+:[K[K [KESCESC[KOO[KBB[K    it already exists), 'x' for creating and writing to a new file, and
+:[K[K [KESCESC[KOO[KBB[K    'a' for appending (which on some Unix systems, means that all writes
+:[K[K [KESCESC[KOO[KBB[K    append to the end of the file regardless of the current seek position).
+:[K[K [KESCESC[KOO[KBB[K    In text mode, if encoding is not specified the encoding used is platform
+:[K[K [KESCESC[KOO[KBB[K    dependent: locale.getpreferredencoding(False) is called to get the
+:[K[K [KESCESC[KOO[KBB[K    current locale encoding. (For reading and writing raw bytes use binary
+:[K[K [KESCESC[KOO[KBB[K    mode and leave encoding unspecified.) The available modes are:
+:[K[K[?1l>[?1049l[23;0;0t
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ truncate 
+truncate: you must specify either ‘--size’ or ‘--reference’
+Try 'truncate --help' for more information.
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ truncate --hek[Kl;[Kp
+Usage: truncate OPTION... FILE...
+Shrink or extend the size of each FILE to the specified size
+
+A FILE argument that does not exist is created.
+
+If a FILE is larger than the specified size, the extra data is lost.
+If a FILE is shorter, it is extended and the extended part (hole)
+reads as zero bytes.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -c, --no-create        do not create any files
+  -o, --io-blocks        treat SIZE as number of IO blocks instead of bytes
+  -r, --reference=RFILE  base size on RFILE
+  -s, --size=SIZE        set or adjust the file size by SIZE bytes
+      --help     display this help and exit
+      --version  output version information and exit
+
+The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
+
+SIZE may also be prefixed by one of the following modifying characters:
+'+' extend by, '-' reduce by, '<' at most, '>' at least,
+'/' round down to multiple of, '%' round up to multiple of.
+
+GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
+Report truncate translation bugs to <http://translationproject.org/team/>
+Full documentation at: <http://www.gnu.org/software/coreutils/truncate>
+or available locally via: info '(coreutils) truncate invocation'
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ pydoc[K[K[K[K[Kwriter
+
+Command 'writer' not found, did you mean:
+
+  command 'write' from deb bsdmainutils
+  command 'write' from deb nwrite
+  command 'write' from deb orville-write
+
+Try: sudo apt install <deb name>
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ wrute[K[K[Kite("")[Cs")t")u")f")f")[C[C
+bash: syntax error near unexpected token `"stuff"'
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ write
+usage: write user [tty]
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ write
+usage: write user [tty]
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ write
+usage: write user [tty]
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ write("stuff")r[Ktruncate --help[Kpydoc3 openthon3 ex16.py ex8.py [12Pdoc3 openthon3 ex16.py ex8.py [K[K[K[K[K[K[K[K[C[1P.py7.py[C[C[C
+  File "<fstring>", line 1
+    (filename.)
+              ^
+SyntaxError: unexpected EOF while parsing
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex17.py
+Traceback (most recent call last):
+  File "ex17.py", line 3, in <module>
+    script, filename = argv
+ValueError: not enough values to unpack (expected 2, got 1)
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex17.py ex16.py
+We're going to erase ex16.py.
+If you don't want that hit ctrl-c (^c).
+If you don't want that, hit RETURN.
+?RETURN
+Opening the file..
+Truncating ther file. Goodbye!
+Traceback (most recent call last):
+  File "ex17.py", line 15, in <module>
+    target.truncazte()
+AttributeError: '_io.TextIOWrapper' object has no attribute 'truncazte'
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex17.py ex16.py
+We're going to erase ex16.py.
+If you don't want that hit ctrl-c (^c).
+If you don't want that, hit RETURN.
+?RETURN
+Opening the file..
+Truncating ther file. Goodbye!
+Now I'm going to ask you for three lines.
+line 1: THE LIFE
+line 2: IS GOING 
+line 3: TOP  HAPPY
+I'm going to write these to tyhe file.
+And finally, we close it.
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex17.py ex16.py[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpython3 ex17.py[10Pwrite("stuff")r[Ktruncate --help[Kpydoc3 openthon3 ex16.py ex8.py [K[K[K[K[K[K[K
+  File "ex16.py", line 1
+    THE LIFE
+           ^
+SyntaxError: invalid syntax
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex16.py [Kpython3 ex17.py[10Pwrite("stuff")r[Ktruncate --help[Kpydoc3 openthon3 ex16.py ex8.py [12Pdoc3 openthon3 ex16.py ex8.py [K[K[K[K[K[K[K[K[K[K[K[K7.PY[K[Kpy ex16.py
+We're going to erase ex16.py.
+If you don't want that hit ctrl-c (^c).
+If you don't want that, hit RETURN.
+?^CTraceback (most recent call last):
+  File "ex17.py", line 9, in <module>
+    input("?")
+KeyboardInterrupt
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex17.py ex16.py
+We're going to erase ex16.py.
+If you don't want that hit ctrl-c (^c).
+If you don't want that, hit RETURN.
+?^c
+Opening the file..
+Truncating ther file. Goodbye!
+Now I'm going to ask you for three lines.
+line 1: life
+line 2: is
+line 3: good
+I'm going to write these to the file.
+And finally, we close it.
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex17.py ex16.py[1P ex16.py[1P ex16.py[1P ex16.py[1P ex16.py[1P ex16.py[1P ex16.py[1P ex16.py[1Pex16.py[C[C[C[C
+  File "ex16.py", line 2
+    is
+     ^
+SyntaxError: invalid syntax
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex16.py7.py ex16.py
+We're going to erase ex16.py.
+If you don't want that hit ctrl-c (^c).
+If you don't want that, hit RETURN.
+?^[[A    q
+Opening the file..
+Truncating ther file. Goodbye!
+Now I'm going to ask you for three lines.
+line 1: l
+line 2: l
+line 3: l
+I'm going to write these to the file.
+And finally, we close it.
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex17.py ex16.py[K[K[K[K[K[K[Khji
+We're going to erase hji.
+If you don't want that hit ctrl-c (^c).
+If you don't want that, hit RETURN.
+?^c
+Opening the file..
+Truncating ther file. Goodbye!
+Now I'm going to ask you for three lines.
+line 1: l
+line 2: l
+line 3: l
+I'm going to write these to the file.
+And finally, we close it.
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex17.py hji[1P hji[1P hji[1P hji[1P hji[1P hji[1P hji[1P hji[1Phji[C[C[C[C
+Traceback (most recent call last):
+  File "hji", line 1, in <module>
+    l
+NameError: name 'l' is not defined
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 hjiex17.py hjiex16.py
+We're going to erase ex16.py.
+If you don't want that hit ctrl-c (^c).
+If you don't want that, hit RETURN.
+?q
+Opening the file..
+Truncating ther file. Goodbye!
+Traceback (most recent call last):
+  File "ex17.py", line 15, in <module>
+    target.truncate()
+io.UnsupportedOperation: File not open for writing
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex17.py ex16.py
+We're going to erase ex16.py.
+If you don't want that hit ctrl-c (^c).
+If you do want that, hit RETURN.
+?RETURN
+Opening the file..
+Truncating ther file. Goodbye!
+Traceback (most recent call last):
+  File "ex17.py", line 15, in <module>
+    target.truncate()
+io.UnsupportedOperation: File not open for writing
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex17.py ex16.py
+We're going to erase ex16.py.
+If you don't want that hit ctrl-c (^c).
+If you do want that, hit RETURN.
+?RETURN
+Opening the file..
+Truncating ther file. Goodbye!
+Now I'm going to ask you for three lines.
+line 1: LO
+line 2: TY
+line 3: KJ
+I'm going to write these to the file.
+And finally, we close it.
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 PR.py
+Traceback (most recent call last):
+  File "PR.py", line 3, in <module>
+    script, filename = argv
+ValueError: not enough values to unpack (expected 2, got 1)
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 PR.py ex16.py
+We're going to read ex16.py.
+if you want that, hit CRTN-C (^C).
+If you do want that, hit RETURN.
+?RETURN
+Opening the file..............
+truncating the file. Goodbye!
+I'm going to read these line for you
+Traceback (most recent call last):
+  File "PR.py", line 19, in <module>
+    target.read(line1)
+NameError: name 'line1' is not defined
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 PR.py ex16.py[1P[1P[1P[1P[C[1P ex16.pye ex16.pyx ex16.py1 ex16.py8 ex16.py. ex16.pyp ex16.pyy ex16.py[C[C[C[C[C[C[C[C PR.py
+Traceback (most recent call last):
+  File "ex18.py", line 1, in <module>
+    from says import argv
+ModuleNotFoundError: No module named 'says'
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex18.py ex16.py PR.py[K[K[K[K[K[K[K[K[K[K[K[K[Kec[K[Kex17'[K.py ex18[K[K16.py
+Traceback (most recent call last):
+  File "ex18.py", line 1, in <module>
+    from says import argv
+ModuleNotFoundError: No module named 'says'
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex18.py ex17.py ex16.py
+Copying from ex17.py to ex16.py
+The input file is 746 bytes long
+Does the output file exist? True
+Ready, hit RETURN to continue, CTRN-c to abort.
+?RETURN
+Alright, all Done.
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex18.py ex17.py ex16.py
+Copying from ex17.py to ex16.py
+The input file is 746 bytes long
+Does the output file exist? True
+Ready, hit RETURN to continue, CTRN-c to abort.
+?CNTR   TRL-C
+Alright, all Done.
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex18.py ex17.py ex16.py[2P6.py PR.py[K[K[K[K[K[K[K[K[K[K[K[K[K[K[1P.py9.py[C[C[C
+  File "ex19.py", line 6
+    def print_two_again*(arg1, arg2):
+                       ^
+SyntaxError: invalid syntax
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex19.py
+  File "ex19.py", line 6
+    def print_two_again*(arg1, arg2):
+                       ^
+SyntaxError: invalid syntax
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex19.py
+  File "ex19.py", line 7
+    print(f"arg1: {arg1}, arg2: {arg2})
+                                      ^
+SyntaxError: EOL while scanning string literal
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex19.py8.py ex17.py ex16.py[2P6.py PR.py[8PPR.py ex16.py[Kex17.py ex16.pyhji[Kex17.py hjiex16.py[8P6.py7.py ex16.py[7P6.py [Kpython3 ex17.py[10Pwrite("stuff")r[Ktruncate --help[Kpydoc3 openthon3 ex16.py ex8.py [12Pdoc3 open[K[Kthon3 ex16.py ex8.py ls[Kpython3 ex16.py a.txt ls[Kpython3 ex16.py ./a.txt [2P[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pvim a.txtld[Kpython3 ex16.py  a [K2[Kpython3 ex16.py ex16_sample.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2[Kpython3 ex16.py  a ld[Kvim a.txtpython ex16.py a.txt [1@3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@./[C[C[C[C[C[Cls[Kpython3 ex16.py a.txt ls[Kpython3 ex16.py ex8.py doc[K3 openthon3 ex16.py ex8.py [12Pdoc3 open[2Ptruncate --help[9Pwriter("stuff")[Kq
+
+Command 'writeq' not found, did you mean:
+
+  command 'write' from deb bsdmainutils
+  command 'write' from deb nwrite
+  command 'write' from deb orville-write
+
+Try: sudo apt install <deb name>
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ writeqpython3 ex19.py8.py ex17.py ex16.py9.py[K
+  File "ex19.py", line 10
+    defprint_one(arg1):
+                      ^
+SyntaxError: invalid syntax
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex19.py
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex19.py
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex19.py
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex19.py
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ 
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex19.py
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex19.py
+arg1: N, arg2 shankra
+arg1: N, arg2: shankra
+arg1; First
+I got nothing
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex19.py[9Pwriteqpython3 ex19.py[1P.py[1P.py2.py0.py[C[C[C
+  File "ex20.py", line 1
+    def cheese_and crackers(cheese_count, boxes_of_crackers):
+                          ^
+SyntaxError: invalid syntax
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex20.py
+We can just give the function number directly:
+You have 20 cheese, 30 boxes of crackers!
+Man that's enough for party!'
+get a blanket.' 
+Or, we can use variables from our script:
+You have 10 cheese, 50 boxes of crackers!
+Man that's enough for party!'
+get a blanket.' 
+We can even do math inside too:
+You have 30 cheese, 11 boxes of crackers!
+Man that's enough for party!'
+get a blanket.' 
+And we can combine the two, variable and math:
+You have 110 cheese, 1050 boxes of crackers!
+Man that's enough for party!'
+get a blanket.' 
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex20.py[1P0.py10.py[1P0.py[1P0.py[C[1P.pyx.py2.py1.py[C[C[C
+Traceback (most recent call last):
+  File "ex21.py", line 3, in <module>
+    script, input_file = argv
+ValueError: not enough values to unpack (expected 2, got 1)
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex21.py ex17.py
+First let's print the whole file:
+
+from sys import argv
+
+script, filename = argv
+
+print(f"We're going to erase {filename}.")
+print("If you don't want that hit ctrl-c (^c).")
+print("If you do want that, hit RETURN.")
+
+input("?")
+
+print("Opening the file..")
+target = open(filename, 'w')
+
+print("Truncating ther file. Goodbye!")
+target.truncate()
+
+print("Now I'm going to ask you for three lines.")
+
+line1 = input("line 1: ")
+line2 = input("line 2: ")
+line3 = input("line 3: ")
+
+print("I'm going to write these to the file.")
+#these are for writing purpose in given filename.
+
+target.write(line1)
+target.write("\n")
+target.write(line2)
+target.write("\n")
+target.write(line3)
+target.write("\n")
+
+print("And finally, we close it.")
+target.close()
+#target.close is for closing the file
+
+Now let's rewind, kind of like a tape.
+Let's print three lines:
+Traceback (most recent call last):
+  File "ex21.py", line 26, in <module>
+    print_a_line(current_line, current_file)
+  File "ex21.py", line 11, in print_a_line
+    print(line_count,f.readline())
+NameError: name 'line_count' is not defined
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex21.py ex17.py[K[K[K[K[K[K[Kx
+Traceback (most recent call last):
+  File "ex21.py", line 13, in <module>
+    current_file = open(input_file)
+FileNotFoundError: [Errno 2] No such file or directory: 'x'
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex21.py x[Ktest.txt
+Traceback (most recent call last):
+  File "ex21.py", line 13, in <module>
+    current_file = open(input_file)
+FileNotFoundError: [Errno 2] No such file or directory: 'test.txt'
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex21.py test.txtx[Kex17.py
+First let's print the whole file:
+
+from sys import argv
+
+script, filename = argv
+
+print(f"We're going to erase {filename}.")
+print("If you don't want that hit ctrl-c (^c).")
+print("If you do want that, hit RETURN.")
+
+input("?")
+
+print("Opening the file..")
+target = open(filename, 'w')
+
+print("Truncating ther file. Goodbye!")
+target.truncate()
+
+print("Now I'm going to ask you for three lines.")
+
+line1 = input("line 1: ")
+line2 = input("line 2: ")
+line3 = input("line 3: ")
+
+print("I'm going to write these to the file.")
+#these are for writing purpose in given filename.
+
+target.write(line1)
+target.write("\n")
+target.write(line2)
+target.write("\n")
+target.write(line3)
+target.write("\n")
+
+print("And finally, we close it.")
+target.close()
+#target.close is for closing the file
+
+Now let's rewind, kind of like a tape.
+Let's print three lines:
+Traceback (most recent call last):
+  File "ex21.py", line 26, in <module>
+    print_a_line(current_line, current_file)
+  File "ex21.py", line 11, in print_a_line
+    print(line_count,f.readline())
+NameError: name 'line_count' is not defined
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex21.py ex17.py
+First let's print the whole file:
+
+from sys import argv
+
+script, filename = argv
+
+print(f"We're going to erase {filename}.")
+print("If you don't want that hit ctrl-c (^c).")
+print("If you do want that, hit RETURN.")
+
+input("?")
+
+print("Opening the file..")
+target = open(filename, 'w')
+
+print("Truncating ther file. Goodbye!")
+target.truncate()
+
+print("Now I'm going to ask you for three lines.")
+
+line1 = input("line 1: ")
+line2 = input("line 2: ")
+line3 = input("line 3: ")
+
+print("I'm going to write these to the file.")
+#these are for writing purpose in given filename.
+
+target.write(line1)
+target.write("\n")
+target.write(line2)
+target.write("\n")
+target.write(line3)
+target.write("\n")
+
+print("And finally, we close it.")
+target.close()
+#target.close is for closing the file
+
+Now let's rewind, kind of like a tape.
+Let's print three lines:
+1 from sys import argv
+
+2 
+
+3 script, filename = argv
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ def print_A+
+
+Command 'def' not found, did you mean:
+
+  command 'df' from deb coreutils
+  command 'dex' from deb dex
+  command 'dep' from deb go-dep
+
+Try: sudo apt install <deb name>
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ def print_A+
+
+Command 'def' not found, did you mean:
+
+  command 'df' from deb coreutils
+  command 'dex' from deb dex
+  command 'dep' from deb go-dep
+
+Try: sudo apt install <deb name>
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ def print_A+python3 ex21.py ex17.py
+First let's print the whole file:
+
+from sys import argv
+
+script, filename = argv
+
+print(f"We're going to erase {filename}.")
+print("If you don't want that hit ctrl-c (^c).")
+print("If you do want that, hit RETURN.")
+
+input("?")
+
+print("Opening the file..")
+target = open(filename, 'w')
+
+print("Truncating ther file. Goodbye!")
+target.truncate()
+
+print("Now I'm going to ask you for three lines.")
+
+line1 = input("line 1: ")
+line2 = input("line 2: ")
+line3 = input("line 3: ")
+
+print("I'm going to write these to the file.")
+#these are for writing purpose in given filename.
+
+target.write(line1)
+target.write("\n")
+target.write(line2)
+target.write("\n")
+target.write(line3)
+target.write("\n")
+
+print("And finally, we close it.")
+target.close()
+#target.close is for closing the file
+
+Now let's rewind, kind of like a tape.
+Let's print three lines:
+1 
+2 
+3 
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex21.py ex17.py
+First let's print the whole file:
+
+from sys import argv
+
+script, filename = argv
+
+print(f"We're going to erase {filename}.")
+print("If you don't want that hit ctrl-c (^c).")
+print("If you do want that, hit RETURN.")
+
+input("?")
+
+print("Opening the file..")
+target = open(filename, 'w')
+
+print("Truncating ther file. Goodbye!")
+target.truncate()
+
+print("Now I'm going to ask you for three lines.")
+
+line1 = input("line 1: ")
+line2 = input("line 2: ")
+line3 = input("line 3: ")
+
+print("I'm going to write these to the file.")
+#these are for writing purpose in given filename.
+
+target.write(line1)
+target.write("\n")
+target.write(line2)
+target.write("\n")
+target.write(line3)
+target.write("\n")
+
+print("And finally, we close it.")
+target.close()
+#target.close is for closing the file
+
+Now let's rewind, kind of like a tape.
+Let's print three lines:
+1 from sys import argv
+
+2 
+
+3 script, filename = argv
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex21.py ex17.py
+First let's print the whole file:
+
+from sys import argv
+
+script, filename = argv
+
+print(f"We're going to erase {filename}.")
+print("If you don't want that hit ctrl-c (^c).")
+print("If you do want that, hit RETURN.")
+
+input("?")
+
+print("Opening the file..")
+target = open(filename, 'w')
+
+print("Truncating ther file. Goodbye!")
+target.truncate()
+
+print("Now I'm going to ask you for three lines.")
+
+line1 = input("line 1: ")
+line2 = input("line 2: ")
+line3 = input("line 3: ")
+
+print("I'm going to write these to the file.")
+#these are for writing purpose in given filename.
+
+target.write(line1)
+target.write("\n")
+target.write(line2)
+target.write("\n")
+target.write(line3)
+target.write("\n")
+
+print("And finally, we close it.")
+target.close()
+#target.close is for closing the file
+
+Now let's rewind, kind of like a tape.
+Let's print three lines:
+1 rom sys import argv
+
+2 
+
+3 script, filename = argv
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex21.py ex17.py
+First let's print the whole file:
+
+from sys import argv
+
+script, filename = argv
+
+print(f"We're going to erase {filename}.")
+print("If you don't want that hit ctrl-c (^c).")
+print("If you do want that, hit RETURN.")
+
+input("?")
+
+print("Opening the file..")
+target = open(filename, 'w')
+
+print("Truncating ther file. Goodbye!")
+target.truncate()
+
+print("Now I'm going to ask you for three lines.")
+
+line1 = input("line 1: ")
+line2 = input("line 2: ")
+line3 = input("line 3: ")
+
+print("I'm going to write these to the file.")
+#these are for writing purpose in given filename.
+
+target.write(line1)
+target.write("\n")
+target.write(line2)
+target.write("\n")
+target.write(line3)
+target.write("\n")
+
+print("And finally, we close it.")
+target.close()
+#target.close is for closing the file
+
+Now let's rewind, kind of like a tape.
+Let's print three lines:
+1 from sys import argv
+
+2 
+
+3 script, filename = argv
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex21.py ex17.py
+First let's print the whole file:
+
+from sys import argv
+
+script, filename = argv
+
+print(f"We're going to erase {filename}.")
+print("If you don't want that hit ctrl-c (^c).")
+print("If you do want that, hit RETURN.")
+
+input("?")
+
+print("Opening the file..")
+target = open(filename, 'w')
+
+print("Truncating ther file. Goodbye!")
+target.truncate()
+
+print("Now I'm going to ask you for three lines.")
+
+line1 = input("line 1: ")
+line2 = input("line 2: ")
+line3 = input("line 3: ")
+
+print("I'm going to write these to the file.")
+#these are for writing purpose in given filename.
+
+target.write(line1)
+target.write("\n")
+target.write(line2)
+target.write("\n")
+target.write(line3)
+target.write("\n")
+
+print("And finally, we close it.")
+target.close()
+#target.close is for closing the file
+
+Now let's rewind, kind of like a tape.
+Let's print three lines:
+2 from sys import argv
+
+3 
+
+4 script, filename = argv
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex21.py ex17.py[11Pdef print_A+python3 ex21.py ex17.py[K[K[K[K[K[K[K[K[1P.py2.py[C[C[C
+Lets do some masth with just functions!
+ADDING 30 + 5
+SUBTRACTIN 78 - 4
+Traceback (most recent call last):
+  File "ex22.py", line 20, in <module>
+    weight = muiltiply(90, 2)
+NameError: name 'muiltiply' is not defined
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex22.py
+Lets do some masth with just functions!
+ADDING 30 + 5
+SUBTRACTIN 78 - 4
+MULTIPLYING 90 * 2
+DIVIDING 100 / 2
+Age: 35, Height: 74, Weight: 180, Iq: 50.0
+Herer is a puzzle
+DIVIDING 50.0 / 2
+MULTIPLYING 180 * 25.0
+SUBTRACTIN 74 - 4500.0
+ADDING 35 + -4426.0
+That becomes: -4391.0 Can you do it by hand?
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex22.py
+Lets do some masth with just functions!
+ADDING 30 + 5
+SUBTRACTIN 78 - 4
+MULTIPLYING 90 * 2
+DIVIDING 100 / 2
+Age: 35, Height: 74, Weight: 180, Iq: None
+Herer is a puzzle
+DIVIDING None / 2
+MULTIPLYING 180 * None
+Traceback (most recent call last):
+  File "ex22.py", line 28, in <module>
+    what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
+  File "ex22.py", line 10, in multiply
+    return a * b
+TypeError: unsupported operand type(s) for *: 'int' and 'NoneType'
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex22.py
+Lets do some masth with just functions!
+ADDING 30 + 5
+SUBTRACTIN 78 - 4
+MULTIPLYING 90 * 2
+DIVIDING 100 / 2
+Age: 35, Height: 74, Weight: 180, Iq: 50.0
+Herer is a puzzle
+DIVIDING 50.0 / 2
+MULTIPLYING 180 * 25.0
+SUBTRACTIN 74 - 4500.0
+ADDING 35 + -4426.0
+That becomes: -4391.0 Can you do it by hand?
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex22.py
+Lets do some masth with just functions!
+ADDING 30 + 5 
+ 35
+SUBTRACTIN 78 - 4 
+ 74
+MULTIPLYING 90 * 2 
+ 180
+DIVIDING 100 / 2 
+ 50.0
+Age: 35, Height: 74, Weight: 180, Iq: 50.0
+Herer is a puzzle
+DIVIDING 50.0 / 2 
+ 25.0
+MULTIPLYING 180 * 25.0 
+ 4500.0
+SUBTRACTIN 74 - 4500.0 
+ -4426.0
+ADDING 35 + -4426.0 
+ -4391.0
+That becomes: -4391.0 Can you do it by hand?
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ [K]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ [K]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex22.py[1P.py3.py[C[C[C utf-8 strict
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex23.py utf-8 strict2.py[K[1P.py4.py[C[C[C
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex24.py
+Let's practice everything.
+You'd need to know 'bout escapes with \ that do:
+
+ newlines and 	 tabs.
+-----------
+
+	The lovely world
+with logic so firmly planted
+cannot discern 
+ the needs of love
+nor comprehend passion from instuition
+and requires and explanation
+
+		where there is none.
+
+-----------
+THis should be five: 5
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex24.py
+Let's practice everything.
+You'd need to know 'bout escapes with \ that do:
+
+ newlines and 	 tabs.
+-----------
+
+	The lovely world
+with logic so firmly planted
+cannot discern 
+ the needs of love
+nor comprehend passion from instuition
+and requires and explanation
+
+		where there is none.
+
+-----------
+THis should be five: 5
+With a starting point of: 10000
+We'd have 5000000 beans, 5000.0 jars, and 50.0 crates.
+We can also do that this way:
+We'd have 500000.0 beans, 500.0 jars, and 5.0 crates.
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ -python3 ex24.py
+Let's practice everything.
+You'd need to know 'bout escapes with \ that do:
+
+ newlines and 	 tabs.
+-----------
+
+	The lovely world
+with logic so firmly planted
+cannot discern 
+ the needs of love
+nor comprehend passion from instuition
+and requires and explanation
+
+		where there is none.
+
+-----------
+THis should be five: 5
+With a starting point of: 10000
+We'd have 5000000 beans, 5000.0 jars, and 50.0 crates.
+We can also do that this way:
+<built-in method format of str object at 0x7fa4c5570bd0>
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex24.py
+Let's practice everything.
+You'd need to know 'bout escapes with \ that do:
+
+ newlines and 	 tabs.
+-----------
+
+	The lovely world
+with logic so firmly planted
+cannot discern 
+ the needs of love
+nor comprehend passion from instuition
+and requires and explanation
+
+		where there is none.
+
+-----------
+THis should be five: 5
+With a starting point of: 10000
+We'd have 5000000 beans, 5000.0 jars, and 50.0 crates.
+We can also do that this way:
+We'd have 500000.0 beans, 500.0 jars, and 5.0 crates.
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex24.py[1P.py5.py[C[C[C
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ [K]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ [K]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex25.py[C[1P.py3.py[C[C[C
+Traceback (most recent call last):
+  File "ex23.py", line 2, in <module>
+    script, input_encoding, error = sys.argv
+ValueError: not enough values to unpack (expected 3, got 1)
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex23.py exi[K1.py
+Traceback (most recent call last):
+  File "ex23.py", line 2, in <module>
+    script, input_encoding, error = sys.argv
+ValueError: not enough values to unpack (expected 3, got 2)
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex23.py ex1.py ex1.py
+Traceback (most recent call last):
+  File "ex23.py", line 20, in <module>
+    main(languages, input_encoding, error)
+TypeError: main() takes 2 positional arguments but 3 were given
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex23.py ex1.py ex1.py[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpython3 ex23.py ex1.py[K[K[K[K[K[Kutf-8 strict
+Traceback (most recent call last):
+  File "ex23.py", line 20, in <module>
+    main(languages, input_encoding, error)
+TypeError: main() takes 2 positional arguments but 3 were given
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex23.py utf-8 strict
+Traceback (most recent call last):
+  File "ex23.py", line 20, in <module>
+    main(languages, input_encoding, error)
+  File "ex23.py", line 8, in main
+    print_line(line, encoding, errors)
+NameError: name 'encoding' is not defined
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex23.py utf-8 strict
+b'Afrikaans' <===> Afrikaans
+b'\xe1\x8a\xa0\xe1\x88\x9b\xe1\x88\xad\xe1\x8a\x9b' <===> አማርኛ
+b'\xd0\x90\xd2\xa7\xd1\x81\xd1\x88\xd3\x99\xd0\xb0' <===> Аҧсшәа
+b'\xd8\xa7\xd9\x84\xd8\xb9\xd8\xb1\xd8\xa8\xd9\x8a\xd8\xa9' <===> العربية
+b'Aragon\xc3\xa9s' <===> Aragonés
+b'Arpetan' <===> Arpetan
+b'Az\xc9\x99rbaycanca' <===> Azərbaycanca
+b'Bamanankan' <===> Bamanankan
+b'\xe0\xa6\xac\xe0\xa6\xbe\xe0\xa6\x82\xe0\xa6\xb2\xe0\xa6\xbe' <===> বাংলা
+b'B\xc3\xa2n-l\xc3\xa2m-g\xc3\xba' <===> Bân-lâm-gú
+b'\xd0\x91\xd0\xb5\xd0\xbb\xd0\xb0\xd1\x80\xd1\x83\xd1\x81\xd0\xba\xd0\xb0\xd1\x8f' <===> Беларуская
+b'\xd0\x91\xd1\x8a\xd0\xbb\xd0\xb3\xd0\xb0\xd1\x80\xd1\x81\xd0\xba\xd0\xb8' <===> Български
+b'Boarisch' <===> Boarisch
+b'Bosanski' <===> Bosanski
+b'\xd0\x91\xd1\x83\xd1\x80\xd1\x8f\xd0\xb0\xd0\xb4' <===> Буряад
+b'Catal\xc3\xa0' <===> Català
+b'\xd0\xa7\xd3\x91\xd0\xb2\xd0\xb0\xd1\x88\xd0\xbb\xd0\xb0' <===> Чӑвашла
+b'\xc4\x8ce\xc5\xa1tina' <===> Čeština
+b'Cymraeg' <===> Cymraeg
+b'Dansk' <===> Dansk
+b'Deutsch' <===> Deutsch
+b'Eesti' <===> Eesti
+b'\xce\x95\xce\xbb\xce\xbb\xce\xb7\xce\xbd\xce\xb9\xce\xba\xce\xac' <===> Ελληνικά
+b'Espa\xc3\xb1ol' <===> Español
+b'Esperanto' <===> Esperanto
+b'\xd9\x81\xd8\xa7\xd8\xb1\xd8\xb3\xdb\x8c' <===> فارسی
+b'Fran\xc3\xa7ais' <===> Français
+b'Frysk' <===> Frysk
+b'Gaelg' <===> Gaelg
+b'G\xc3\xa0idhlig' <===> Gàidhlig
+b'Galego' <===> Galego
+b'\xed\x95\x9c\xea\xb5\xad\xec\x96\xb4' <===> 한국어
+b'\xd5\x80\xd5\xa1\xd5\xb5\xd5\xa5\xd6\x80\xd5\xa5\xd5\xb6' <===> Հայերեն
+b'\xe0\xa4\xb9\xe0\xa4\xbf\xe0\xa4\xa8\xe0\xa5\x8d\xe0\xa4\xa6\xe0\xa5\x80' <===> हिन्दी
+b'Hrvatski' <===> Hrvatski
+b'Ido' <===> Ido
+b'Interlingua' <===> Interlingua
+b'Italiano' <===> Italiano
+b'\xd7\xa2\xd7\x91\xd7\xa8\xd7\x99\xd7\xaa' <===> עברית
+b'\xe0\xb2\x95\xe0\xb2\xa8\xe0\xb3\x8d\xe0\xb2\xa8\xe0\xb2\xa1' <===> ಕನ್ನಡ
+b'Kapampangan' <===> Kapampangan
+b'\xe1\x83\xa5\xe1\x83\x90\xe1\x83\xa0\xe1\x83\x97\xe1\x83\xa3\xe1\x83\x9a\xe1\x83\x98' <===> ქართული
+b'\xd2\x9a\xd0\xb0\xd0\xb7\xd0\xb0\xd2\x9b\xd1\x88\xd0\xb0' <===> Қазақша
+b'Krey\xc3\xb2l ayisyen' <===> Kreyòl ayisyen
+b'Latga\xc4\xbcu' <===> Latgaļu
+b'Latina' <===> Latina
+b'Latvie\xc5\xa1u' <===> Latviešu
+b'L\xc3\xabtzebuergesch' <===> Lëtzebuergesch
+b'Lietuvi\xc5\xb3' <===> Lietuvių
+b'Magyar' <===> Magyar
+b'\xd0\x9c\xd0\xb0\xd0\xba\xd0\xb5\xd0\xb4\xd0\xbe\xd0\xbd\xd1\x81\xd0\xba\xd0\xb8' <===> Македонски
+b'Malti' <===> Malti
+b'\xe0\xa4\xae\xe0\xa4\xb0\xe0\xa4\xbe\xe0\xa4\xa0\xe0\xa5\x80' <===> मराठी
+b'\xe1\x83\x9b\xe1\x83\x90\xe1\x83\xa0\xe1\x83\x92\xe1\x83\x90\xe1\x83\x9a\xe1\x83\xa3\xe1\x83\xa0\xe1\x83\x98' <===> მარგალური
+b'\xd9\x85\xd8\xa7\xd8\xb2\xd9\x90\xd8\xb1\xd9\x88\xd9\x86\xdb\x8c' <===> مازِرونی
+b'Bahasa Melayu' <===> Bahasa Melayu
+b'\xd0\x9c\xd0\xbe\xd0\xbd\xd0\xb3\xd0\xbe\xd0\xbb' <===> Монгол
+b'Nederlands' <===> Nederlands
+b'\xe0\xa4\xa8\xe0\xa5\x87\xe0\xa4\xaa\xe0\xa4\xbe\xe0\xa4\xb2 \xe0\xa4\xad\xe0\xa4\xbe\xe0\xa4\xb7\xe0\xa4\xbe' <===> नेपाल भाषा
+b'\xe6\x97\xa5\xe6\x9c\xac\xe8\xaa\x9e' <===> 日本語
+b'Norsk bokm\xc3\xa5l' <===> Norsk bokmål
+b'Nouormand' <===> Nouormand
+b'Occitan' <===> Occitan
+b'O\xca\xbbzbekcha/\xd1\x9e\xd0\xb7\xd0\xb1\xd0\xb5\xd0\xba\xd1\x87\xd0\xb0' <===> Oʻzbekcha/ўзбекча
+b'\xe0\xa8\xaa\xe0\xa9\xb0\xe0\xa8\x9c\xe0\xa8\xbe\xe0\xa8\xac\xe0\xa9\x80' <===> ਪੰਜਾਬੀ
+b'\xd9\xbe\xd9\x86\xd8\xac\xd8\xa7\xd8\xa8\xdb\x8c' <===> پنجابی
+b'\xd9\xbe\xda\x9a\xd8\xaa\xd9\x88' <===> پښتو
+b'Plattd\xc3\xbc\xc3\xbctsch' <===> Plattdüütsch
+b'Polski' <===> Polski
+b'Portugu\xc3\xaas' <===> Português
+b'Rom\xc3\xa2n\xc4\x83' <===> Română
+b'Romani' <===> Romani
+b'\xd0\xa0\xd1\x83\xd1\x81\xd1\x81\xd0\xba\xd0\xb8\xd0\xb9' <===> Русский
+b'Seeltersk' <===> Seeltersk
+b'Shqip' <===> Shqip
+b'Simple English' <===> Simple English
+b'Sloven\xc4\x8dina' <===> Slovenčina
+b'\xda\xa9\xd9\x88\xd8\xb1\xd8\xaf\xdb\x8c\xdb\x8c \xd9\x86\xd8\xa7\xd9\x88\xdb\x95\xd9\x86\xd8\xaf\xdb\x8c' <===> کوردیی ناوەندی
+b'\xd0\xa1\xd1\x80\xd0\xbf\xd1\x81\xd0\xba\xd0\xb8 / srpski' <===> Српски / srpski
+b'Suomi' <===> Suomi
+b'Svenska' <===> Svenska
+b'Tagalog' <===> Tagalog
+b'\xe0\xae\xa4\xe0\xae\xae\xe0\xae\xbf\xe0\xae\xb4\xe0\xaf\x8d' <===> தமிழ்
+b'\xe0\xb8\xa0\xe0\xb8\xb2\xe0\xb8\xa9\xe0\xb8\xb2\xe0\xb9\x84\xe0\xb8\x97\xe0\xb8\xa2' <===> ภาษาไทย
+b'Taqbaylit' <===> Taqbaylit
+b'\xd0\xa2\xd0\xb0\xd1\x82\xd0\xb0\xd1\x80\xd1\x87\xd0\xb0/tatar\xc3\xa7a' <===> Татарча/tatarça
+b'\xe0\xb0\xa4\xe0\xb1\x86\xe0\xb0\xb2\xe0\xb1\x81\xe0\xb0\x97\xe0\xb1\x81' <===> తెలుగు
+b'\xd0\xa2\xd0\xbe\xd2\xb7\xd0\xb8\xd0\xba\xd3\xa3' <===> Тоҷикӣ
+b'T\xc3\xbcrk\xc3\xa7e' <===> Türkçe
+b'\xd0\xa3\xd0\xba\xd1\x80\xd0\xb0\xd1\x97\xd0\xbd\xd1\x81\xd1\x8c\xd0\xba\xd0\xb0' <===> Українська
+b'\xd8\xa7\xd8\xb1\xd8\xaf\xd9\x88' <===> اردو
+b'Ti\xe1\xba\xbfng Vi\xe1\xbb\x87t' <===> Tiếng Việt
+b'V\xc3\xb5ro' <===> Võro
+b'\xe6\x96\x87\xe8\xa8\x80' <===> 文言
+b'\xe5\x90\xb4\xe8\xaf\xad' <===> 吴语
+b'\xd7\x99\xd7\x99\xd6\xb4\xd7\x93\xd7\x99\xd7\xa9' <===> ייִדיש
+b'\xe4\xb8\xad\xe6\x96\x87' <===> 中文
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex23.py utf-8 strict[K[K[K[K[K[K[K[K[K[K[K[K[K[C[1P.py5.py .pyp.pyy.pyt.pyh.pyo.pyn.py[C[C[C
+python3: can't open file 'ex25': [Errno 2] No such file or directory
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex25 python.py
+python3: can't open file 'ex25': [Errno 2] No such file or directory
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex25 python.py
+python3: can't open file 'ex25': [Errno 2] No such file or directory
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex25 python.py
+python3: can't open file 'ex25': [Errno 2] No such file or directory
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex25 python.py3.py utf-8 strict[6P5 python.py
+python3: can't open file 'ex25': [Errno 2] No such file or directory
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ ls
+ PR.py         ex12.py   ex17s1.py   ex22.py           ex3.py   ex9.py
+ [0m[34;42m__pycache__[0m   ex13.py   ex18.py     ex23.py           ex4.py   hji
+ a.txt         ex14.py   ex19.py     ex24.py           ex5.py   hw1
+ ex1.py        ex15.py   ex2.py     'ex25 python'      ex6.py   languages.txt
+ ex10.py       ex16.py   ex20.py    'ex25 python.py'   ex7.py   [34;42mpython[0m
+ ex11.py       ex17.py   ex21.py     ex25.py           ex8.py   typescript
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ mv ex2
+ex2.py          ex21.py         ex23.py         ex25 python     ex25.py
+ex20.py         ex22.py         ex24.py         ex25 python.py  
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ mv ex25 4[K[K
+ex25 python     ex25 python.py  ex25.py         
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ mv ex25
+mv: missing destination file operand after 'ex25'
+Try 'mv --help' for more information.
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ mv ex25ls[Kpython3 ex25 python.py3.py utf-8 strict[6P5 python.py[1Ppython.py_python.py[C[C[C[C[C[C[C[C[C
+Let's practice everything.
+You'd need to know 'bout escapes with \ that do:
+
+ newlines and 	 tabs.
+-----------
+
+	The lovely world
+with logic so firmly planted
+cannot discern 
+ the needs of love
+nor comprehend passion from instuition
+and requires and explanation
+
+		where there is none.
+
+-----------
+THis should be five: 5
+With a starting point of: 10000
+We'd have 5000000 beans, 5000.0 jars, and 50.0 crates.
+We can also do that this way:
+We'd have 500000.0 beans, 500.0 jars, and 5.0 crates.
+Traceback (most recent call last):
+  File "ex25_python.py", line 3, in <module>
+    words = ex24.break_words(sentence)
+AttributeError: module 'ex24' has no attribute 'break_words'
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex25_python.py
+Traceback (most recent call last):
+  File "ex25_python.py", line 3, in <module>
+    words = ex25.break_words(sentence)
+AttributeError: module 'ex25' has no attribute 'break_words'
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex25_python.py
+Traceback (most recent call last):
+  File "ex25_python.py", line 1, in <module>
+    import ex25_python
+  File "/home/n/python/ex25_python.py", line 3, in <module>
+    words = ex25_python.break_words(sentence)
+AttributeError: module 'ex25_python' has no attribute 'break_words'
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ ls
+ PR.py         ex13.py     ex19.py  'ex25 python'      ex6.py          [0m[34;42mpython[0m
+ [34;42m__pycache__[0m   ex14.py     ex2.py   'ex25 python.py'   ex7.py          typescript
+ a.txt         ex15.py     ex20.py   ex25.py           ex8.py
+ ex1.py        ex16.py     ex21.py   ex25_python.py    ex9.py
+ ex10.py       ex17.py     ex22.py   ex3.py            hji
+ ex11.py       ex17s1.py   ex23.py   ex4.py            hw1
+ ex12.py       ex18.py     ex24.py   ex5.py            languages.txt
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ vim ec[Kx25
+ex25 python     ex25 python.py  ex25.py         ex25_python.py  
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ vim ex25[K[K[K[K[K[K[K[Krm ex25 [K[K[K[K[K`[K'EX[K[Kex25 python'
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ ls
+ PR.py         ex12.py   ex17s1.py   ex22.py           ex3.py   ex9.py
+ [0m[34;42m__pycache__[0m   ex13.py   ex18.py     ex23.py           ex4.py   hji
+ a.txt         ex14.py   ex19.py     ex24.py           ex5.py   hw1
+ ex1.py        ex15.py   ex2.py     'ex25 python.py'   ex6.py   languages.txt
+ ex10.py       ex16.py   ex20.py     ex25.py           ex7.py   [34;42mpython[0m
+ ex11.py       ex17.py   ex21.py     ex25_python.py    ex8.py   typescript
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ rm ex2
+ex2.py          ex21.py         ex23.py         ex25 python.py  ex25_python.py
+ex20.py         ex22.py         ex24.py         ex25.py         
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ rm ex25
+ex25 python.py  ex25.py         ex25_python.py  
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ rm ex25
+ex25 python.py  ex25.py         ex25_python.py  
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ rm ex25'ex25[C[C[C[C python.py'
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ ls
+PR.py        ex11.py  ex16.py    ex2.py   ex24.py         ex5.py  hji
+[0m[34;42m__pycache__[0m  ex12.py  ex17.py    ex20.py  ex25.py         ex6.py  hw1
+a.txt        ex13.py  ex17s1.py  ex21.py  ex25_python.py  ex7.py  languages.txt
+ex1.py       ex14.py  ex18.py    ex22.py  ex3.py          ex8.py  [34;42mpython[0m
+ex10.py      ex15.py  ex19.py    ex23.py  ex4.py          ex9.py  typescript
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ rm ex25
+ex25.py         ex25_python.py  
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ rm ex25[K[K[K[K[K[K[Kfilr [K[Ke ex
+ex1.py          ex15.py         ex2.py          ex25.py         ex7.py
+ex10.py         ex16.py         ex20.py         ex25_python.py  ex8.py
+ex11.py         ex17.py         ex21.py         ex3.py          ex9.py
+ex12.py         ex17s1.py       ex22.py         ex4.py          
+ex13.py         ex18.py         ex23.py         ex5.py          
+ex14.py         ex19.py         ex24.py         ex6.py          
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ file ex25
+ex25.py         ex25_python.py  
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ file ex25
+ex25.py         ex25_python.py  
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ file ex25
+ex25.py         ex25_python.py  
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ file ex25
+ex25.py         ex25_python.py  
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ file ex25
+ex25.py         ex25_python.py  
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ file ex25
+ex25.py         ex25_python.py  
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ file ex25
+ex25.py         ex25_python.py  
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ file ex25
+ex25.py         ex25_python.py  
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ file ex25
+ex25.py         ex25_python.py  
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ file ex25
+ex25.py         ex25_python.py  
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ file ex25
+ex25.py         ex25_python.py  
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ file ex25
+ex25: cannot open `ex25' (No such file or directory)
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ file ex25ls[Krm 'ex25 python.py'ls[K[K[Kpython ex25_python.py
+
+Command 'python' not found, but can be installed with:
+
+sudo apt install python3       
+sudo apt install python        
+sudo apt install python-minimal
+
+You also have python3 installed, you can run 'python3' instead.
+
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ pythomn[K[Kn3 ex25_python.py
+Traceback (most recent call last):
+  File "ex25_python.py", line 4, in <module>
+    words = ex25.break_words(sentence)
+AttributeError: module 'ex25' has no attribute 'break_words'
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex25_python.py
+Traceback (most recent call last):
+  File "ex25_python.py", line 8, in <module>
+    ex25.print_first_word(words)
+  File "/home/n/python/ex25.py", line 12, in print_first_word
+    word = word.pop(0)
+UnboundLocalError: local variable 'word' referenced before assignment
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex25_python.py
+All
+wait.
+All
+who
+All
+wait.
+All
+who
+]0;n@LAPTOP-UD4CSAJI: ~/python[01;32mn@LAPTOP-UD4CSAJI[00m:[01;34m~/python[00m$ python3 ex25_python.py[1P ex25_python.py[12Pfile ex25ls[Krm 'ex25 python.py'ls[Krm 'ex25 python'ls[Krm 'ex25 python.py'ls[Kfile ex25python ex25_python.py[12Pfile ex25ls[Krm 'ex25 python.py'ls[Krm 'ex25 python'ls[Kpython3 ex25_python.pymv ex25[Kpython3 ex25_python.py[K[K[K[K[K[K[K[K[K[K[K7.py
+Traceback (most recent call last):
+  File "ex27.py", line 1, in <module>
+    NOT
+NameError: name 'NOT' is not defined
+]0;n@LAPTOP-UD4CSAJI: ~/python
